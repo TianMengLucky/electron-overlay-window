@@ -1,5 +1,4 @@
 import { app, BrowserWindow } from "electron";
-import { platform } from "node:os";
 import { overlayWindow } from "../";
 
 let window: BrowserWindow;
