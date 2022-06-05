@@ -56,6 +56,8 @@ function createWindow () {
   makeDemoInteractive()
 
   overlayWindow.attachTo(window, 'Untitled - Notepad')
+  overlayWindow.show();
+
 }
 
 function makeDemoInteractive () {
