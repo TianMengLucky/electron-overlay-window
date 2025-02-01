@@ -1,12 +1,8 @@
 {
   "name": "electron-overlay-window",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": {
     "name": "Alexander Drozdov"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SnosMe/electron-overlay-window.git"
   },
   "license": "MIT",
   "keywords": [
@@ -36,22 +32,16 @@
     "prebuilds"
   ],
   "devDependencies": {
-    "@types/node": "12.x.x",
-    "@types/throttle-debounce": "2.x.x",
-    "electron": "10.x.x",
-    "prebuildify": "4.x.x",
-    "ts-node": "9.x.x"
+    "@types/node": "22.13.0",
+    "@types/throttle-debounce": "5.0.2",
+    "electron": "34.0.2",
+    "prebuildify": "6.0.1",
+    "ts-node": "10.9.2"
   },
   "dependencies": {
-    "node-gyp-build": "4.x.x",
-    "throttle-debounce": "3.x.x",
-    "typescript": "^4.7.3"
+    "node-gyp-build": "4.8.4",
+    "throttle-debounce": "5.0.2",
+    "typescript": "^5.7.3"
   },
-  "gypfile": true,
-  "engines": {
-    "node": ">= 12"
-  },
-  "peerDependencies": {
-    "electron": ">= 10"
-  }
+  "gypfile": true
 }
